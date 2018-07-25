@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+  color: red;
+}
+
+.navbar-default .navbar-nav > .active > a {  /*,*/
+  color: #399bd1;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: black;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+
+.navbar-nav {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover
+ {
+  background-color: unset;
+}
